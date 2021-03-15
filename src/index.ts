@@ -1,10 +1,5 @@
 import express from 'express';
 import open from 'open';
-<<<<<<< HEAD
-
-const app = express();
-
-=======
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import handleStaticFiles from './staticFiles';
@@ -22,7 +17,6 @@ handleCookies(app);
 
 handleDowmload(app);
 
->>>>>>> 2f9a404... file/cookie/download
 const port = 8000;
 
 app.get('/', (req, res) => {
